@@ -1,48 +1,15 @@
-# agent-instructions-ja
+# Devin Review Chrome Extensions
 
-AI Agent を日本語で使うためのよくある初期設定
+🇬🇧 Open the current GitHub pull request in Devin Review.
 
-## 想定 Agent
+🇯🇵 GitHub の Pull Request ページを `devinreview.com` で開くための Chrome 拡張です。
 
-- Cursor
-- Devin
-- GitHub Copilot
-- Windsurf Cascade
+![small promo](./store-assets/small-promo-440x280.png)
 
-## 各ファイルの説明とリファレンス
+## 🇬🇧 Overview
 
-```text
-.
-├── .cursor/
-│   └── BUGBOT.md
-├── .github/
-│   └── copilot-instructions.md
-├── .cursorrules
-├── AGENTS.md
-├── README.md
-└── REVIEW.md
-```
+Enable the extension icon only on GitHub pull request pages. When clicked, it replaces github.com in the current URL with devinreview.com and opens the result in a new tab.
 
-### .cursor/BUGBOT.md
+## 🇯🇵 概要
 
-https://cursor.com/docs/bugbot#rules
-
-### .github/copilot-instructions.md
-
-GitHub Copilot Coding Agent に日本語で PR を作成してもらうために念のため設定しています。
-
-https://docs.github.com/en/copilot/reference/custom-instructions-support
-
-### .cursorrules
-
-コミットメッセージを日本語で生成するために設定しています。
-
-https://forum.cursor.com/t/how-to-change-generate-commit-message-language/39670
-
-### AGENTS.md
-
-https://agents.md
-
-### REVIEW.md
-
-https://docs.devin.ai/work-with-devin/devin-review#review-md
+GitHub 上で Pull Request を表示しているときだけ拡張アイコンを有効にし、クリックすると現在の URL を `github.com` から `devinreview.com` に置き換えて新しいタブで開きます。
