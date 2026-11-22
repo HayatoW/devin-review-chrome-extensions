@@ -1,5 +1,7 @@
 # Devin Review Chrome Extensions
 
+[![Built by Devin](https://raw.githubusercontent.com/club-cog/built-by-devin/main/badges/built-by-devin.svg)](https://devin.ai)
+
 🇬🇧 Open the current GitHub pull request in Devin Review.
 
 🇯🇵 GitHub の Pull Request ページを `devinreview.com` で開くための Chrome 拡張です。
